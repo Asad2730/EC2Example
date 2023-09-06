@@ -2,11 +2,11 @@ module github.com/Asad2730/EC2Example
 
 go 1.21.0
 
-require github.com/aws/aws-sdk-go v1.45.3
+require github.com/aws/smithy-go v1.14.2 // indirect
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.21.0 // indirect
-	github.com/aws/aws-sdk-go-v2/config v1.18.39 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.21.0
+	github.com/aws/aws-sdk-go-v2/config v1.18.39
 	github.com/aws/aws-sdk-go-v2/credentials v1.13.37 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.13.11 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.41 // indirect
